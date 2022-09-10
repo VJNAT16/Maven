@@ -1,0 +1,39 @@
+Installation & Configuration:
+
+  Maven Installation & Configuration in Ubuntu:
+  
+  Root User: # sudo su - root
+      # lsb_release -a
+    # sudo apt search jdk -y
+    # sudo apt update
+    # sudo apt install openjdk-11-jdk -y
+    # sudo apt search maven
+    # sudo apt install maven -y
+    # mvn -version
+    # Maven home: /usr/share/maven
+    # ls
+    # sudo mv apache-maven-3.8.6-bin.tar.gz /usr/local/
+    cd /usr/local
+    ls
+    # tar -xzvf apache-maven-3.8.6-bin.tar.gz
+    ls apache-maven-3.8.6
+    cd bin (Maven Executable file in the bin directory)
+    bin/mvn -version
+ 
+ 
+    # git clone https://github.com/jabedhasan21/java-hello-world-with-maven.git
+    (https://github.com/jabedhasan21/java-hello-world-with-maven)
+    
+    sudo apt install git -y
+    ls
+    cd devopshyd-vm-repo/
+    git branch -a
+    vim pom.xml
+    mvn install
+    ls
+    cd target/
+    
+    
+    
+    
+    
