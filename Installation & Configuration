@@ -20,7 +20,7 @@ Installation & Configuration:
     cd bin (Maven Executable file in the bin directory)
     bin/mvn -version
  
- 
+ https://github.com/VJNAT16/vprofile-project.git
     # git clone https://github.com/jabedhasan21/java-hello-world-with-maven.git
     (https://github.com/jabedhasan21/java-hello-world-with-maven)
     
